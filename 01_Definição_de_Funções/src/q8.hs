@@ -5,4 +5,11 @@ minusculus c =
     in if x >= fromEnum 'A' && x <= fromEnum 'Z'
         then toEnum(x + 32)
         else c
+
+main :: IO()
+main = do
+    putStrLn "Digite um caractere"
+    c <- getLine
+    let x = read c :: Char
+    putStrLn $ "Retorno: " ++ show(minusculus x)
    

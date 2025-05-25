@@ -1,4 +1,5 @@
 -- 3. Defina uma função que calcule a média aritmética de três números Double.
+
 mean :: Double -> Double -> Double -> Double
 mean x y z = (x + y + z)/3
 

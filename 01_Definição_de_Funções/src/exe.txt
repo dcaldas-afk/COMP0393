@@ -5,5 +5,3 @@
     * Uma versão somente usando operadores lógicos (sem condicional)
 
     * Uma versão usando comparação por igualdade -}
-
--- Programa

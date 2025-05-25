@@ -1,6 +1,6 @@
--- 2. Defina uma função que permita verificar se um número Int é ímpar.
+-- 2. Defina uma função que permita verificar se um número Int é ímpar. 
 isOdd :: Int -> Bool
-isOdd = odd
+isOdd n = n `mod` 2 == 1
 
 main :: IO ()
 main = do

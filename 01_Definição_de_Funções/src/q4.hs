@@ -1,3 +1,4 @@
+    
 import qualified Control.Monad
 
 -- 4. Defina uma função que calcule o menor de dois números Int.

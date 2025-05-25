@@ -1,4 +1,5 @@
 -- 5. Defina uma função que receba um número Int e que retorne 1, 0 ou -1, dependendo se o valor é positivo, zero ou negativo, respectivamente.
+    
 isPositive :: Int -> Int
 isPositive x
     | x > 0 = 1

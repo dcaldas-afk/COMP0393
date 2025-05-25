@@ -1,4 +1,4 @@
--- 7. Defina duas funções, uma para transformar graus fahrenheit para centígrados e outra que faz o inverso.
+-- 7. Defina duas funções, uma para transformar graus fahrenheit para centígrados e outra que faz o inverso.   
 cToFahrenheit :: Double -> Double
 cToFahrenheit temp = 32 + 1.8 * temp
 

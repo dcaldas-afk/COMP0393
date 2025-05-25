@@ -1,7 +1,7 @@
 -- 1. Defina uma função que permita verificar se um número Int é par.
 isEven :: Int -> Bool
-isEven = even
-
+isEven n = n `mod` 2 == 0
+    
 main :: IO ()
 main = do
     putStrLn "Digite um número: "
