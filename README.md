@@ -2,11 +2,11 @@
 
 
 
-"O absurdo nasce do confronto entre o desejo humano e o silêncio irracional do mundo."
-                                                                             — Albert Camus
+"O absurdo nasce do confronto entre o desejo humano e o silêncio irracional do mundo."  
+                                                                              — **Albert Camus**
 
-"O homem está condenado a ser livre."
-                             — Jean-Paul Sartre
+"O homem está condenado a ser livre."  
+                              — **Jean-Paul Sartre**
 
 ````
        V O U    M E    L I B E R T A R
