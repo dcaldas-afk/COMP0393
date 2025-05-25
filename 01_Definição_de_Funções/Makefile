@@ -1,27 +1,24 @@
-# Diretórios
-SRC_DIR = src
-OUT_DIR = build
-BIN_DIR = bin
+# Pastas
+SRC_DIR = src 								# arquivos-fonte
+OUT_DIR = build								# object files e afins
+BIN_DIR = bin								# onde os executáveis vão parar
 
-# Arquivos-fonte Haskell
+# Wildcardzinho pra captar todos os arquivos-fonte
 HS_FILES = $(wildcard $(SRC_DIR)/*.hs)
 
-# Nomes dos executáveis (mesmo nome do arquivo .hs)
+# Isso serve pra nomear os executáveis com o nome dos seus arquivos fonte
 BINARIES = $(patsubst $(SRC_DIR)/%.hs, $(BIN_DIR)/%, $(HS_FILES))
 
-# Regra padrão: compilar tudo
+# Regras (só o básico dessa vez)
 all: $(BINARIES)
 
-# Como compilar cada executável
 $(BIN_DIR)/%: $(SRC_DIR)/%.hs
 	mkdir -p $(OUT_DIR) $(BIN_DIR)
 	ghc -outputdir $(OUT_DIR) -o $@ $<
 
-# Limpar binários e arquivos intermediários
 clean:
 	rm -rf $(OUT_DIR) $(BIN_DIR)
 
-# Recompilar do zero
 re: clean all
 
 .PHONY: all clean re
